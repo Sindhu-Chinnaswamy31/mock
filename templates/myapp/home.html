@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    <title>Blog</title>
+{% endblock %}
+
+{% block content%}
+  <p class="lead text-center">Below are some faous food around the world</p>
+{% endblock%}
+
+{% block p%}
+    {% include "partials/_blog.html" %}
+    {% endblock %}
